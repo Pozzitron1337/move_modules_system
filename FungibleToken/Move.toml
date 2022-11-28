@@ -1,0 +1,10 @@
+[package]
+name = 'FungibleToken'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+FungibleTokenAddress="db23d52be835617116aad74a13085ae2f81347c539dd742a52a122fa82d47564"

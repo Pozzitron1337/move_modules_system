@@ -1,0 +1,16 @@
+[package]
+name = 'MyNFT'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+
+[addresses]
+MyNFTAddress="0f12b78f09e4a1ea4960fb8b6b10c47541749ea9aa1daee5bb3eb0c8aa80750e"

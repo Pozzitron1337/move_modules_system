@@ -1,0 +1,12 @@
+[package]
+name = "staking"
+version = "0.0.1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "devnet" }
+FungibleToken = { local= "../FungibleToken" }
+MyNFT = { local = "../MyNFT" }
+
+[addresses]
+StakingAddress="7148d886fe763b2d19ede2494a5d226435b4ffae8bb68234344e938736f31cf6"
+FungibleTokenAddress="db23d52be835617116aad74a13085ae2f81347c539dd742a52a122fa82d47564"
